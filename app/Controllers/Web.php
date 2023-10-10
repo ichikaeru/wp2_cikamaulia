@@ -10,7 +10,7 @@ class Web extends BaseController
     {
         $data['judul'] = 'Halaman Depan';
         
-
+        //memanggil view header, index, footer
         return view('latihan_wp/v_header', $data)
             . view('latihan_wp/v_index', $data)
             . view('latihan_wp/v_footer', $data);
@@ -20,7 +20,7 @@ class Web extends BaseController
     {
         $data['judul'] = 'Halaman About';
         
-
+        // memanggil view header, about, footer
         return view('latihan_wp/v_header', $data)
             . view('latihan_wp/v_about', $data)
             . view('latihan_wp/v_footer', $data);

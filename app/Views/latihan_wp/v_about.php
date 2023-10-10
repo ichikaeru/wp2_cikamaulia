@@ -2,21 +2,21 @@
   <h1> <?php echo $judul ?> </h1>
   <h4>Nama</h4>
   <ul type="disc">
-    <li>Nama Depan : Kris</li>
-    <li>Nama Belakang : Setiyadi</li>
+    <li>Nama Depan : Cika</li>
+    <li>Nama Belakang : Maulia</li>
   </ul>
   <br>
   <h4>Alamat</h4>
   <ul type="none">
-    <li> Jalan Cendrawasih Bekasi Jawa Barat</li>
+    <li> Jalan Perwira Kota Bekasi Jawa Barat</li>
   </ul>
   <h4>Tempat Lahir</h4>
   <ul type="none">
-    <li>Bekasi</li>
+    <li>Jakarta</li>
   </ul>
   <h4>Olah Raga Favorit</h4>
   <ul type="square">
-    <li>Bulutangkis</li>
-    <li>Catur</li>
+    <li>Lari</li>
+    <li>Bersepeda</li>
   </ul>
 </section>
