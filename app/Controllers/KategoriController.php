@@ -7,7 +7,7 @@ use App\Models\Kategori;
 
 class KategoriController extends BaseController
 {
-    
+    // controller kategori
     
     public function index()
     {

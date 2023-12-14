@@ -39,7 +39,7 @@ $routes->post('matakuliah/cetak', 'Matakuliah::cetak');
 $routes->get('web', 'Web::index',['as' => 'home']);
 $routes->get('web/about', 'Web::about', ['as' => 'about']);
 
-// PUSTAKA BOOKING
+// Katergori controller
 // $routes->resource('kategori', ['controller' => 'KategoriController']);
 $routes->get('kategori', 'KategoriController::index');
 $routes->get('kategori/(:num)', 'KategoriController::show/$1');
