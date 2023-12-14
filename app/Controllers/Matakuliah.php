@@ -6,11 +6,13 @@ use App\Controllers\BaseController;
 
 class Matakuliah extends BaseController
 {
+    // return view form
     public function index()
     {
         return view('latihan_wp/view-form-matakuliah');
     }
 
+    // return view data
     public function cetak()
     {
 
