@@ -25,7 +25,7 @@
             }
         </style>
     </head>
-
+<!-- halaman registrasi -->
     <body>
         
         <div class="account-pages my-2 pt-sm-5">
